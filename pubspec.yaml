@@ -15,7 +15,7 @@ dependencies:
   parse_server_sdk_flutter: ^9.0.0
   http: ^0.13.5
   shared_preferences: ^2.2.3
-  image_picker: ^0.8.7
+  image_picker: ^1.1.2
 
 dev_dependencies:
   flutter_test:
