@@ -9,20 +9,20 @@ This Flutter application allows users to sign up, log in, manage a list of peopl
 
 # TECHNOLOGIES USED:
 
-Flutter
-Back4App (Parse Server)
-Dart
-Parse Server SDK for Flutter
+- Flutter
+- Back4App (Parse Server)
+- Dart
+- Parse Server SDK for Flutter
 
 # Backend Features:
-**Authentication:** Using ParseUser for Login / Signup.
-**Data Storage:** Persons class stores user-created records.
-**User-Level Access:** Users can only access their own data.
-**Security:** Each record uses ACL or queries filtered by current user.
+- **Authentication:** Using ParseUser for Login / Signup.
+- **Data Storage:** Persons class stores user-created records.
+- **User-Level Access:** Users can only access their own data.
+- **Security:** Each record uses ACL or queries filtered by current user.
 
 # Collections in Back4App:
-**User:** Stores registered users.
-**Persons:** Stores firstName, lastName, age, username (Current User)
+- **User:** Stores registered users.
+- **Persons:** Stores firstName, lastName, age, username (Current User)
 
 # Demo Link
 
