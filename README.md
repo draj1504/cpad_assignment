@@ -1,16 +1,29 @@
 # cpad_assignment
 
-A new Flutter project.
+Cross-Platform Application Development - Assignment
+BITS ID: 2023TM93653
 
-## Getting Started
+# Purpose
 
-This project is a starting point for a Flutter application.
+This Flutter application allows users to sign up, log in, manage a list of people (CRUD), and update their account details securely. The app is integrated with Back4App (Parse Platform) for backend services.
 
-A few resources to get you started if this is your first Flutter project:
+# TECHNOLOGIES USED:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter
+Back4App (Parse Server)
+Dart
+Parse Server SDK for Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Backend Features:
+**Authentication:** Using ParseUser for Login / Signup.
+**Data Storage:** Persons class stores user-created records.
+**User-Level Access:** Users can only access their own data.
+**Security:** Each record uses ACL or queries filtered by current user.
+
+# Collections in Back4App:
+**User:** Stores registered users.
+**Persons:** Stores firstName, lastName, age, username (Current User)
+
+# Demo Link
+
+https://drive.google.com/file/d/1bX9qMFcYNKfbXd6Sy4o5-1VFCN7K-265/view?usp=sharing
