@@ -1,7 +1,6 @@
 # cpad_assignment
 
-Cross-Platform Application Development - Assignment
-BITS ID: 2023TM93653
+Cross-Platform Application Development - Assignment - 2023TM93653
 
 # Purpose
 
